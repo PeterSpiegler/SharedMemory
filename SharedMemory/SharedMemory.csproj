@@ -17,6 +17,9 @@
     <SignAssembly>true</SignAssembly>
     <AssemblyOriginatorKeyFile>publickey.snk</AssemblyOriginatorKeyFile>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Net40Debug|AnyCPU'">
+    <DocumentationFile>SharedMemory.xml</DocumentationFile>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -27,6 +30,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BufferWithLocks.cs" />
+    <Compile Include="DaqBuffer.cs" />
+    <Compile Include="DAQBufferReader.cs" />
+    <Compile Include="DAQBufferWriter.cs" />
     <Compile Include="CircularBuffer.cs" />
     <Compile Include="SharedHeader.cs" />
     <Compile Include="MemoryMappedFiles\MemoryMappedFile.cs" />

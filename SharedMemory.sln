@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.21005.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingleProcess", "Examples\SingleProcess\SingleProcess.csproj", "{EA64397B-5AB6-46BB-8D0D-26887BF2D4CD}"
 EndProject
@@ -20,6 +20,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Build", "Build", "{EBE05BE9
 		appveyor.yml = appveyor.yml
 		SharedMemory.PreSettings.targets = SharedMemory.PreSettings.targets
 	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerDaqTest", "Examples\ServerDaqTest\ServerDaqTest.csproj", "{2542A46C-2A71-45C5-912E-8287438FB491}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientDaqTest", "Examples\ClientDaqTest\ClientDaqTest.csproj", "{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -69,13 +73,31 @@ Global
 		{F4DF3959-C696-44A4-BE9C-FD1857DE5347}.Net40Debug|Any CPU.Build.0 = Net40Debug|Any CPU
 		{F4DF3959-C696-44A4-BE9C-FD1857DE5347}.Net40Release|Any CPU.ActiveCfg = Net40Release|Any CPU
 		{F4DF3959-C696-44A4-BE9C-FD1857DE5347}.Net40Release|Any CPU.Build.0 = Net40Release|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net35Debug|Any CPU.ActiveCfg = Net35Debug|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net35Debug|Any CPU.Build.0 = Net35Debug|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net35Release|Any CPU.ActiveCfg = Net35Release|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net35Release|Any CPU.Build.0 = Net35Release|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net40Debug|Any CPU.ActiveCfg = Net40Debug|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net40Debug|Any CPU.Build.0 = Net40Debug|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net40Release|Any CPU.ActiveCfg = Net40Release|Any CPU
+		{2542A46C-2A71-45C5-912E-8287438FB491}.Net40Release|Any CPU.Build.0 = Net40Release|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net35Debug|Any CPU.ActiveCfg = Net35Debug|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net35Debug|Any CPU.Build.0 = Net35Debug|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net35Release|Any CPU.ActiveCfg = Net35Release|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net35Release|Any CPU.Build.0 = Net35Release|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net40Debug|Any CPU.ActiveCfg = Net40Debug|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net40Debug|Any CPU.Build.0 = Net40Debug|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net40Release|Any CPU.ActiveCfg = Net40Release|Any CPU
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217}.Net40Release|Any CPU.Build.0 = Net40Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{EA64397B-5AB6-46BB-8D0D-26887BF2D4CD} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
 		{57019AF7-C4AC-476B-8790-E95133220D8B} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
 		{82C40D26-757D-4850-99BA-2341AB9D0E4D} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
-		{EA64397B-5AB6-46BB-8D0D-26887BF2D4CD} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
+		{2542A46C-2A71-45C5-912E-8287438FB491} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
+		{C3C36FA2-C1F4-4EFE-8B8A-44DBC0E2E217} = {5B5C5EF2-B61D-4C63-B303-6B1876F28960}
 	EndGlobalSection
 EndGlobal

@@ -21,3 +21,11 @@ obj/
 _ReSharper*/
 TestResults*/
 *.nupkg
+/Examples/ClientDaqTest/ClientDaqTest.XML
+/Examples/ClientDaqTest/ClientTest.XML
+/Examples/ClientTest/ClientTest.XML
+/Examples/ServerDaqTest/ServerDaqTest.XML
+/Examples/ServerDaqTest/ServerTest.XML
+/Examples/ServerTest/ServerTest.XML
+/Examples/SingleProcess/SingleProcess.XML
+/SharedMemory/SharedMemory.XML
